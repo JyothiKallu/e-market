@@ -3,8 +3,6 @@ import { Routes, Route } from 'react-router-dom'
 import Login from './Login/Login'
 import Signup from './Login/Signup'
 
-const iconsHref = `${import.meta.env.BASE_URL}icons.svg`
-
 function App() {
   return (
     <Routes>
